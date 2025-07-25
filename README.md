@@ -1,10 +1,39 @@
-# qt-toDo
-qt-toDo - this is a To-Do List based on Python with PyQt6
+# Qt-toDo
+Qt-toDo - this is a To-Do List based on Python with PyQt6
 
 
 # How to use?
-For using my app you need install python3 and libary PyQt6. To open my app use: 
+For using this app you need install python3 and PyQt6 libary
+
+Arch-Based:
 ```bash
-python3 qt-todo.py
+sudo pacman -S python3
 ```
-And then everything becomes intuitively clear.
+```bash
+pip install PyQt6
+```
+
+On Windows:
+Enter the official site of [python](https://www.python.org/downloads/windows/) and download him
+
+In installer be sure check box "Add to PATH"
+Then in terminal check python is installed:
+```cmd
+python3 --version
+```
+If pytohn has been insatlled correctly, then:
+```cmd
+python3 pip install PyQt6
+```
+After installing PyQt6 enter in terminal:
+```cmd
+python3 <move .py file to here>
+```
+# If you want .exe
+```cmd
+python3 pip install pyinstaller
+```
+```cmd
+pyinstaller --onefile --windowed <move .py file to here>
+```
+And getting .exe
