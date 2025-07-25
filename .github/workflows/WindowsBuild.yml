@@ -17,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: qt-todo.exe
-          path: dist/qt-todo.exe2
+          path: dist/qt-todo.exe
